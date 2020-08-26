@@ -19,9 +19,12 @@
     margin-right: 5px;
     margin-left: 5px;
   }
-    .container-fluid {
-    
+  .container-fluid {
     margin-top: 100px;
+    @media (max-width: 768px) {
+      display: block;
+      font-size: 18px;
+    }
     
   }
   .navbar-brand {
@@ -47,6 +50,8 @@
   }
   img {
     padding-left: 50px;  
+    max-width:100%;
+    height:auto;
   }
   
   div.col-md-8 {
@@ -97,7 +102,7 @@
       <div class="col-lg-6">
           <h1>Cloudiness</h1>
           <hr></br></br>
-          <img src="cloudiness.png" width = "800" alt="cloudiness" ></br>
+          <img src="cloudiness.png" style="width: 100%; height: auto" alt="cloudiness" ></br>
           In this study of Cloudiness vs. Latitude, we see that there is no pattern of cloudiness as you move
           further away from the equator.  Results vary from city to city that share same latitude coordinates.
           
@@ -108,13 +113,13 @@
             <h3>Visualizations</h3>
             <hr>
             <a href="maxtemp.html">
-            <img src="Resources/maxtemp.png" width="400"></a>
+            <img src="Resources/maxtemp.png" style="width: 100%; height: auto"></a>
             <a href="humidity.html">
-            <img src="Resources/humidity.png" width="400"></a>
+            <img src="Resources/humidity.png"style="width: 100%; height: auto"></a>
             
-            <img src="Resources/cloudiness.png" width="400">
+            <img src="Resources/cloudiness.png" style="width: 100%; height: auto">
             <a href="windspeed.html">
-            <img src="Resources/windspeed.png" width="400" /></a>
+            <img src="Resources/windspeed.png" style="width: 100%; height: auto" /></a>
           </div>
           
       </div>

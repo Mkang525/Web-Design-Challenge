@@ -15,12 +15,16 @@ html,body {
     padding: 10px;
     margin-right: 5px;
     margin-left: 5px;
-    
+
 }
 
 
 .container {
-    margin-top: 50px
+    margin-top: 50px;
+    @media (max-width: 768) {
+        display: block;
+        font-size: 18px;
+    }
 }
 
 .navbar-brand {
@@ -66,7 +70,7 @@ footer {
     text-align: center;
   }
 
-  
+
 
 
 
