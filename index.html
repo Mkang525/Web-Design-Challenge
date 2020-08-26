@@ -1,71 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Cloudiness vs. Latitude</title>
+  <title>Weather Analysis</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-  <style>
-  
-    .navbar {
-    font-size: 20px;
-  }
-    .navbar li {
-    padding: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-    .container-fluid {
-    
-    margin-top: 100px;
-    
-  }
-  .navbar-brand {
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    font-size: 30px;
-    padding-left: 50px; 
-  }
-
- 
-  
-  h1 {
-    color: #0BADA6;
-    margin-left: 50px;
-    text-shadow: 2px 2px 6px gray;
-  }
-  
-  h3 {
-    color: #0BADA6;
-    margin-left: 50px;
-    text-align: left;
-    text-shadow: 2px 2px 6px gray;
-  }
-  img {
-    padding-left: 50px;  
-  }
-  
-  div.col-md-8 {
-    padding: 20px;
-  
-  }
-  
-  #para1 {
-    margin-left: 50px;
-    margin-right: 60px;
-  }
-
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+
 <nav class="navbar navbar-expand-md bg-light navbar-light">
-  <a class="navbar-brand" href="index.html">Weather Analysis</a>
+  <a class="navbar-brand" href="index.html">  Weather Analysis  </a>
   <ul class="navbar-nav ml-auto">
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -97,42 +46,47 @@
     </ul>
   </div>  
 </nav>
-<br>  
+<br>   
 
-  <div class="container-fluid padding">
+  <div class="container-fluid padding" style="border-block">
   <div class="row padding">
-      <div class="col-lg-6">
-          <h1>Cloudiness</h1>
-          <hr></br></br>
-          <img src = "resources/cloudiness.png" width = "800" alt="cloudiness" ></br>
-          In this study of Cloudiness vs. Latitude, we see that there is no pattern of cloudiness as you move
-          further away from the equator.  Results vary from city to city that share same latitude coordinates.
-          
-   
-      </div>
+    <div class="col-sm-6 col-lg-8">
+      <h1>Summary: Latitude vs. X </h1>
+      <hr>
+      <img src ="resources/maxtemp.png" ALIGN="left" width="500" height="300"/></br>
+      The purpose of this project was to analyze how weather changes as you get closer to
+      the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
+      API to assemble a dataset on over 500 cities.</br><br>
 
-      <div class="col-lg-6">
-            <h3>Visualizations</h3>
-            <hr>
-            <a href="maxtemp.html">
-            <img src="resources/maxtemp.png" width="400"></a>
-            <a href="humidity.html">
-            <img src="resources/humidity.png" width="400"></a>
-            
-            <img src="resources/cloudiness.png" width="400">
-            <a href="windspeed.html">
-            <img src="resources/windspeed.png" width="400" /></a>
-          </div>
-          
-      </div>
+      After assembling the dataset, we used Matplotlib to plot various aspects of the weather 
+      vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed and humidity.
+      This site provides the source data and visualizations created as part of the analysis,
+      as well as explanations and descriptions of any trends and correlations witnessed.
+  
+    </div>
+    
+    <div class ="col-6 col-lg-4">
+    
+      <h2>Visualizations</h2>
+      
+      <a href="maxtemp.html">
+      <img src="resources/maxtemp.png" width="200"></a>
+      <a href="humidity.html">
+      <img src="resources/humidity.png" width="200"></a>
+      <a href="cloudiness.html">
+      <img src="resources/cloudiness.png" width="200"></a>
+      <a href="windspeed.html">
+      <img src="resources/windspeed.png" width="200" /></a>
+    </div>
   </div>
-</div>
-
+  </div>
 </body>
-</br></br>
+</br>
+</br>
 <footer>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <p style="color:white">  &#169 Copyright Coding Bootcamp 2017</p>
   </nav>
 </footer>
-  </html>
+</html>
+</html>
