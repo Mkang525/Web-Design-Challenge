@@ -12,40 +12,39 @@
 </head>
 <body>
 
-
-<nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
-  <a class="navbar-brand" href="index.html">  Weather Analysis  </a>
-  <ul class="navbar-nav ml-auto">
-  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-  
-    <!-- Dropdown -->
-      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Plots
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
-        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-        <a class="dropdown-item" href="humidity.html">Humidity</a>
-        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-      </div>
-    </li>
-  
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="comparison.html">Comparison</a>
+  <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <a class="navbar-brand" href="index.html">  Weather Analysis  </a>
+    <ul class="navbar-nav ml-auto">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    
+      <!-- Dropdown -->
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Plots
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+          <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+        </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="data.html">Data</a>
-      </li>
-   
-    </ul>
-  </div>  
-</nav>
+    
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+     
+      </ul>
+    </div>  
+  </nav>
 <br>   
 
   <div class="container-fluid padding" style="border-block">
@@ -53,7 +52,7 @@
     <div class="col-sm-6 col-lg-8">
       <h1>Summary: Latitude vs. X </h1>
       <hr>
-      <img src ="Resources/maxtemp.png" ALIGN="left" width="500" height="300"/></br>
+      <img src ="Resources/maxtemp.png" style="width: 100%; height: auto" /></br>
       The purpose of this project was to analyze how weather changes as you get closer to
       the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap
       API to assemble a dataset on over 500 cities.</br><br>
@@ -70,13 +69,13 @@
       <h2>Visualizations</h2>
       
       <a href="maxtemp.html">
-      <img src="Resources/maxtemp.png" width="200"></a>
+      <img src="Resources/maxtemp.png" width="300"></a>
       <a href="humidity.html">
-      <img src="Resources/humidity.png" width="200"></a>
+      <img src="Resources/humidity.png" width="300"></a>
       <a href="cloudiness.html">
-      <img src="Resources/cloudiness.png" width="200"></a>
+      <img src="Resources/cloudiness.png" width="300"></a>
       <a href="windspeed.html">
-      <img src="Resources/windspeed.png" width="200" /></a>
+      <img src="Resources/windspeed.png" width="300" /></a>
     </div>
   </div>
   </div>
@@ -84,7 +83,7 @@
 </br>
 </br>
 <footer>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <p style="color:white">  &#169 Copyright Coding Bootcamp 2017</p>
   </nav>
 </footer>
