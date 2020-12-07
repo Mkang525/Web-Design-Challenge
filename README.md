@@ -1,6 +1,7 @@
 # Web-Design-Challenge
 
-WeatherPy
+## WeatherPy <br>
+<br>
 A series of scatter plots and linear regressions were created to showcase the relationships between a cities' distance from the equator and various weather conditions.   
 Scatter plot images were saved as PNG files to be used in the dashboard.
 
