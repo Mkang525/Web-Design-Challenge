@@ -1,0 +1,15 @@
+{
+    "python.pythonPath": "C:\\Users\\mokae\\anaconda3\\envs\\PythonData\\python.exe",
+    "json.schemas": [
+    
+    ],
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask-sqlalchemy",
+        "pylint-flask"
+    ],
+
+    "editor.rulers": [
+    
+    ]
+}
