@@ -10,4 +10,4 @@
   <li>Save a CSV of all retrieved data and a PNG image for each scatter plot.</li>
 </ul>
 <h1>Dashboard </h1><br>
-<ul>
+<img src="Resources/Capture.jpg">
