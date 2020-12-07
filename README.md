@@ -9,7 +9,7 @@
   <li>Save a CSV of all retrieved data and a PNG image for each scatter plot.</li>
 </ul>
 <h1>Dashboard </h1><br>
-<a href="https://mkang525.github.io/Web-Design-Challenge/index.html" target="_blank">Click Here to View Dashboard</a><br><br>
+<a target="_blank" href="https://mkang525.github.io/Web-Design-Challenge/index.html">Click Here to View Dashboard</a><br><br>
 <img src="Resources/Capture.JPG"><br>
 <ul>
   <li> Analysis and scatter plots displayed as a dashboard</li>
