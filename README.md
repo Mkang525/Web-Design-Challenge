@@ -8,3 +8,6 @@
   <li>Perform a weather check on each of the cities using a series of successive API calls.</li>
   <li>Include a print log of each city as it's being processed with the city number and city name.</li>
   <li>Save a CSV of all retrieved data and a PNG image for each scatter plot.</li>
+</ul>
+# Dashboard <br>
+<ul>
