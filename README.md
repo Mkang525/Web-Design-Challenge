@@ -1,4 +1,3 @@
-# Web-Design-Challenge
 
 <h1>WeatherPy</h1> <br>
 <ul>
