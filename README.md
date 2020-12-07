@@ -10,4 +10,9 @@
   <li>Save a CSV of all retrieved data and a PNG image for each scatter plot.</li>
 </ul>
 <h1>Dashboard </h1><br>
-<img src="Resources/Capture.JPG">
+<img src="Resources/Capture.JPG"><br>
+<ul>
+  <li> Analysis and scatter plots displayed as a dashboard</li>
+  <li> Includes a table of data on all cities randomly chosen with the OpenWeatherMap API</li>
+  <li> Dashboard created using HTML, CSS, and Bootstrap
+   
